@@ -28,7 +28,7 @@ export const config = {
   
   // CORS
   cors: {
-    origin: process.env.FRONTEND_URL || 'http://localhost:5173',
+    origin: (process.env.FRONTEND_URL || 'http://localhost:5173,https://legalsense-cllp.vercel.app').split(',').map(url => url.trim()),
   },
   
   // Rate Limiting
