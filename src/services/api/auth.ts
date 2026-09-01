@@ -1,5 +1,5 @@
 import { auth } from '../supabase';
-import { fetchWithAuth } from './index';
+import { fetchWithAuth, API_BASE_URL } from './index';
 
 export interface AuthUser {
   id: string;
@@ -34,7 +34,7 @@ export async function signUpWithEmail(
   password: string,
   displayName: string
 ): Promise<AuthResponse> {
-  const response = await fetch('http://localhost:3001/api/auth/signup', {
+  const response = await fetch(`${API_BASE_URL}/api/auth/signup`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -69,7 +69,7 @@ export async function signUpWithEmail(
 }
 
 export async function signInWithEmail(email: string, password: string): Promise<AuthResponse> {
-  const response = await fetch('http://localhost:3001/api/auth/signin', {
+  const response = await fetch(`${API_BASE_URL}/api/auth/signin`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
