@@ -100,7 +100,7 @@ export async function signInWithEmail(email: string, password: string): Promise<
 }
 
 export async function signInWithGoogle(): Promise<AuthResponse> {
-  const { data, error } = await auth.signInWithOAuth({
+  const { error } = await auth.signInWithOAuth({
     provider: 'google',
     options: {
       redirectTo: `${window.location.origin}/auth/callback`,
@@ -108,7 +108,7 @@ export async function signInWithGoogle(): Promise<AuthResponse> {
   });
 
   if (error) throw error;
-  
+
   // OAuth redirect will handle the rest
   throw new Error('OAuth redirect initiated');
 }
