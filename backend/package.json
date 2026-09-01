@@ -5,10 +5,10 @@
   "main": "dist/server.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "build": "tsc",
+    "build": "npx -p typescript@5.3.3 tsc",
     "start": "node dist/server.js",
     "lint": "eslint src --ext .ts",
-    "type-check": "tsc --noEmit",
+    "type-check": "npx -p typescript@5.3.3 tsc --noEmit",
     "ingest:legal": "tsx scripts/ingest-legal-documents.ts"
   },
   "keywords": [
