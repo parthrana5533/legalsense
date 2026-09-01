@@ -1,0 +1,74 @@
+{
+  "consumer-protection-act-2019.pdf": {
+    "title": "Consumer Protection Act, 2019",
+    "act_name": "Consumer Protection Act",
+    "year": 2019,
+    "jurisdiction": "central",
+    "country": "India",
+    "state": null,
+    "city": null,
+    "source": "Ministry of Law and Justice, Government of India",
+    "source_url": "https://egazette.gov.in/WriteReadData/2019/210422.pdf",
+    "category": "Consumer"
+  },
+  "bns-2023.pdf": {
+    "title": "Bharatiya Nyaya Sanhita, 2023",
+    "act_name": "Bharatiya Nyaya Sanhita",
+    "year": 2023,
+    "jurisdiction": "central",
+    "country": "India",
+    "state": null,
+    "city": null,
+    "source": "India Code / Government of India",
+    "source_url": "",
+    "category": "Criminal"
+  },
+  "bnss-2023.pdf": {
+    "title": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+    "act_name": "Bharatiya Nagarik Suraksha Sanhita",
+    "year": 2023,
+    "jurisdiction": "central",
+    "country": "India",
+    "state": null,
+    "city": null,
+    "source": "India Code / Government of India",
+    "source_url": "",
+    "category": "Criminal"
+  },
+  "bsa-2023.pdf": {
+    "title": "Bharatiya Sakshya Adhiniyam, 2023",
+    "act_name": "Bharatiya Sakshya Adhiniyam",
+    "year": 2023,
+    "jurisdiction": "central",
+    "country": "India",
+    "state": null,
+    "city": null,
+    "source": "India Code / Government of India",
+    "source_url": "",
+    "category": "Civil"
+  },
+  "constitution-of-india-2024.pdf": {
+    "title": "Constitution of India",
+    "act_name": "Constitution of India",
+    "year": 2024,
+    "jurisdiction": "central",
+    "country": "India",
+    "state": null,
+    "city": null,
+    "source": "Legislative Department, Government of India",
+    "source_url": "",
+    "category": "Constitutional"
+  },
+  "motor-vehicles-act-1988.pdf": {
+    "title": "Motor Vehicles Act, 1988",
+    "act_name": "Motor Vehicles Act",
+    "year": 1988,
+    "jurisdiction": "central",
+    "country": "India",
+    "state": null,
+    "city": null,
+    "source": "India Code / Government of India",
+    "source_url": "",
+    "category": "Traffic"
+  }
+}

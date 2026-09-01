@@ -1,0 +1,2 @@
+// Future: OCR document processing
+// export { extractText, processDocument } from './processor';

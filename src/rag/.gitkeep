@@ -1,0 +1,2 @@
+// Future: RAG pipeline with vector database
+// export { embedDocument, queryKnowledgeBase } from './pipeline';

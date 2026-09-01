@@ -1,0 +1,2 @@
+// Future: Google Gemini API integration
+// export { analyzeLegalCase, generateLegalAdvice } from './gemini';
