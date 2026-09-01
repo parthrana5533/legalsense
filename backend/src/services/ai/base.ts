@@ -5,6 +5,7 @@
  */
 
 import { AIResponse } from '../../types';
+export type { AIResponse };
 
 export interface AIProvider {
   /**
